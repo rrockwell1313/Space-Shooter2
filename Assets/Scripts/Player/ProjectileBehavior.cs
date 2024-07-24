@@ -11,7 +11,7 @@ using UnityEngine;
 #endregion
 public class ProjectileBehavior : MonoBehaviour
 {
-  public ProjectileData projectileData;
+  public Projectile_Data projectileData;
   private float zBound = 43.0f;
   // Start is called before the first frame update
   void Start()

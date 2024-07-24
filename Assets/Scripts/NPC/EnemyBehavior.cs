@@ -20,7 +20,7 @@ public class EnemyBehavior : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        //test
     }
 
   private void OnTriggerEnter(Collider other)

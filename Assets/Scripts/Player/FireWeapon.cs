@@ -12,8 +12,8 @@ using UnityEngine;
 #endregion
 public class FireWeapon : MonoBehaviour
 {
-  public RangedWeaponData weaponData;
-  public ProjectileData projectileData;
+  public RangedWeapon_Data weaponData;
+  public Projectile_Data projectileData;
 
   public Transform bulletSpawn;
   private float nextFire =0.0f;
@@ -50,14 +50,14 @@ public class FireWeapon : MonoBehaviour
     }
   }
 
-  public void ChangeWeapon(RangedWeaponData newWeaponData)
+  public void ChangeWeapon(RangedWeapon_Data newWeaponData)
   {
     //we call this from other scripts and objects to update weapons.
     weaponData = newWeaponData;
     currentAmmo = weaponData.maxAmmo;
   }
 
-  public void ChangeProjectile(ProjectileData newProjectileData)
+  public void ChangeProjectile(Projectile_Data newProjectileData)
   {
     //we call this from other scripts and objects to update projectiles. Certain guns can still get different types of bullets in this game.
     //For example, elemental bullet types of special impact effects or additional effects from the bullet itself. We will need to fully plan this out a bit more.

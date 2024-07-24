@@ -10,6 +10,7 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "NewNPC", menuName = "NPC", order = 51)]
 public class NPC_Data : ScriptableObject
 {
+  public GameObject npcPrefab;
   public bool isEnemy;
   
   public string npcName;

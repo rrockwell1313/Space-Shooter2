@@ -44,8 +44,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 347d259a0ef0a0d4b828b658fece461b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  npcPrefab: {fileID: 2776467679182264360, guid: 2d5a652b7350c93418966b81a57f4f34, type: 3}
+  npcData: {fileID: 11400000, guid: 6d9f50e8fe07cd045b16724def1cdd58, type: 2}
   spawnPoint: {fileID: 5136473180074122024}
-  spawnTime: 2
+  spawnTime: 3
   spawnCount: 0
-  maxSpawnCount: 20
+  maxSpawnCount: 50
